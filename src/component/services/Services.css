@@ -1,0 +1,15 @@
+.home {
+    height: 100%;
+}
+
+.homeImage {
+    background-image: url("https://cio.com.br/wp-content/uploads/2019/11/por-que-a-linguagem-rust-esta-em-ascensao.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100%;
+}
+
+.homeText {
+    color: white;
+}

@@ -1,9 +1,13 @@
-function App() {
-    return (
-        <h1>
-            <a href='https://kimuradev.com.br'>https://kimuradev.com.br</a>
-        </h1>
-    );
+import React from "react";
+
+import AppContainer from './component/AppContainer'
+
+class App extends React.Component {
+    render() {
+        return (
+            <AppContainer/>
+        )
+    }
 }
 
 export default App;
