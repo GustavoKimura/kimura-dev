@@ -5,7 +5,7 @@ const About = () => (
         <strong className='aboutTitle'>Sobre</strong>
 
         <div className='aboutContent'>
-            <div className='aboutImage' />
+            <div className='aboutImage'/>
 
             <div className='aboutTextsContent'>
                 <span className='aboutMyNameText'>Gustavo Kimura</span>

@@ -3,6 +3,8 @@ import Home from './home/Home';
 import Services from "./services/Services";
 import About from "./about/About";
 import Portfolio from "./portfolio/Portfolio";
+import Contact from "./contact/Contact";
+import Footer from "./footer/Footer";
 
 const AppContainer = () => (
     <div className='app'>
@@ -11,6 +13,8 @@ const AppContainer = () => (
         <About/>
         <Services/>
         <Portfolio/>
+        <Contact/>
+        <Footer/>
     </div>
 )
 
