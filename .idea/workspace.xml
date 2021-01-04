@@ -2,14 +2,37 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1580086b-63cc-4204-b051-6cd9e72a6302" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/component/contact/Contact.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/component/contact/Contact.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/component/footer/Footer.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/component/footer/Footer.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/component/parallax-stars/ParallaxStars.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/component/parallax-stars/ParallaxStars.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/fonts/Archivo-Bold.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/fonts/Archivo-BoldItalic.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/fonts/Archivo-Italic.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/fonts/Archivo-Medium.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/fonts/Archivo-MediumItalic.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/fonts/Archivo-Regular.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/fonts/Archivo-SemiBold.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/fonts/Archivo-SemiBoldItalic.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/img/logo/logo-transparent.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/img/logo/logo.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.eslintcache" beforeDir="false" afterPath="$PROJECT_DIR$/.eslintcache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/kimura-dev.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/kimura-dev.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/component/AppContainer.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/component/AppContainer.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/component/about/About.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/component/about/About.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/component/about/About.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/component/about/About.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/component/contact/Contact.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/component/contact/Contact.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/component/footer/Footer.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/component/footer/Footer.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/component/header/Header.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/component/header/Header.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/component/header/Header.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/component/header/Header.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/component/home/Home.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/component/home/Home.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/component/home/Home.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/component/home/Home.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/component/services/Services.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/component/habilities/Habilities.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/component/services/Services.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/component/habilities/Habilities.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -22,8 +45,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="JavaScript File" />
         <option value="CSS File" />
+        <option value="JavaScript File" />
       </list>
     </option>
   </component>
@@ -43,9 +66,8 @@
     <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
-    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/component" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -58,13 +80,16 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Gustavo\Desktop\kimura-dev\src\img" />
+      <recent name="C:\Users\Gustavo\Desktop\kimura-dev\public\src\img" />
       <recent name="C:\Users\Gustavo\Desktop\kimura-dev\src\component" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
-      <recent name="C:\Users\Gustavo\Desktop\kimura-dev\src\component\header" />
-      <recent name="C:\Users\Gustavo\Desktop\kimura-dev\src\component" />
       <recent name="C:\Users\Gustavo\Desktop\kimura-dev\src" />
-      <recent name="C:\Users\Gustavo\Desktop\kimura-dev\src\container" />
+      <recent name="C:\Users\Gustavo\Desktop\kimura-dev" />
+      <recent name="C:\Users\Gustavo\Desktop\kimura-dev\public" />
+      <recent name="C:\Users\Gustavo\Desktop\kimura-dev\src\fonts" />
+      <recent name="C:\Users\Gustavo\Desktop\kimura-dev\src\component\header" />
     </key>
   </component>
   <component name="RunManager" selected="Jest.renders learn react link">
@@ -109,7 +134,13 @@
       <option name="presentableId" value="Default" />
       <updated>1607704555699</updated>
       <workItem from="1607704556851" duration="5485000" />
-      <workItem from="1607848165031" duration="13518000" />
+      <workItem from="1607848165031" duration="13986000" />
+      <workItem from="1607878758598" duration="71000" />
+      <workItem from="1607934927871" duration="6024000" />
+      <workItem from="1608052261658" duration="26682000" />
+      <workItem from="1608772596385" duration="10389000" />
+      <workItem from="1608857618496" duration="439000" />
+      <workItem from="1609788905414" duration="3476000" />
     </task>
     <servers />
   </component>

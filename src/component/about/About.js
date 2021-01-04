@@ -1,34 +1,54 @@
 import './About.css'
+import { Carousel } from "react-responsive-carousel";
+import "react-responsive-carousel/lib/styles/carousel.min.css";
+import React from "react";
 
 const About = () => (
     <div className='about'>
-        <strong className='aboutTitle'>Sobre</strong>
+        <div className='aboutTitleSquare'>
+            <strong className='aboutTitle'>Sobre</strong>
+        </div>
 
         <div className='aboutContent'>
-            <div className='aboutImage'/>
+            <div className='aboutSubContent'>
+                <div className='aboutImage'/>
+
+                <div className='aboutHeartbeats'>
+                    <span className='aboutHeartbeatsText'>❤</span>
+
+                    <Carousel className='aboutHeartbeatsCarousel' infiniteLoop autoPlay swipeable={true} showArrows={false} showStatus={false} showThumbs={false} showIndicators={false}>
+                        <div>
+                            <img className='aboutHeartbeat' src="http://www.attekita.com/wp-content/uploads/2019/08/icon-unity.png"/>
+                            <span className='aboutHeartbeatName'>Unity Engine</span>
+                        </div>
+
+                        <div>
+                            <img className='aboutHeartbeat' src="http://www.attekita.com/wp-content/uploads/2019/08/icon-php.png"/>
+                            <span className='aboutHeartbeatName'>PHP</span>
+                        </div>
+
+                        <div>
+                            <img className='aboutHeartbeat' src="http://www.attekita.com/wp-content/uploads/2019/08/icon-javascript.png"/>
+                            <span className='aboutHeartbeatName'>Javascript</span>
+                        </div>
+                    </Carousel>
+                </div>
+            </div>
 
             <div className='aboutTextsContent'>
-                <span className='aboutMyNameText'>Gustavo Kimura</span>
+                <span className='aboutMyNameText'>Olá! Me chamo Gustavo Kimura.</span>
 
                 <span className='aboutText'>
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit. In condimentum porttitor nibh ut feugiat.
-                Proin sed nisi vitae arcu euismod sodales. Vestibulum at vulputate dolor. Sed ac enim ornare,
-                porta mauris sed, maximus turpis. In hac habitasse platea dictumst. Aenean a pharetra ante, quis mattis orci.
-                Nam ut leo iaculis, condimentum tellus sit amet, euismod dolor. Praesent eget mollis felis, ut lacinia odio.
-
-                Quisque rhoncus nunc a velit varius, vel mattis mi tempor. Donec ac tristique nulla. Nullam bibendum enim
-                malesuada tempor efficitur. Vivamus vitae orci congue, bibendum mauris eget, malesuada dui. Mauris vel
-                feugiat mauris. Vivamus cursus felis vel fermentum molestie. Phasellus sit amet tempor dolor.
-
-                Nulla vitae vulputate libero, vel dictum sapien. Pellentesque at felis at ligula elementum congue.
-                Curabitur pharetra sapien ac metus gravida efficitur. Duis pretium libero a mauris rutrum faucibus.
-                Duis lacinia ligula sed enim porta, quis tristique est consequat. Nullam at molestie neque. Sed aliquet
-                lorem ac mauris consectetur, vel auctor massa iaculis. Mauris ullamcorper tincidunt semper. Suspendisse potenti.
-                Praesent nec mi eget turpis pellentesque malesuada. Vestibulum ante ipsum primis in faucibus orci luctus et
-                ultrices posuere cubilia curae; Cras sit amet dolor nec quam pharetra tempus vel a ex. Pellentesque accumsan
-                nulla sit amet dapibus laoreet. Suspendisse rhoncus lectus non dolor condimentum, semper efficitur ex blandit.
-                Pellentesque a pharetra odio.
-            </span>
+                    Sou programador, analista e desenvolvedor de sistemas, sites e aplicativos móveis há mais de 3 anos, atuando diretamente no mercado.
+                    <br/><br/>
+                    Tive a gloriosa chance de trabalhar em equipes de desenvolvimento com excelentes profissionais, em empresas muito bem instaladas na região de Santa Catarina.
+                    <br/><br/>
+                    Formado em Análise e Desenvolvimento de Sistemas pelo Instituto Federal de Santa Catarina, obtive diversos conhecimentos acerca da área de programação, o que me concedeu a oportunidade de participar de um projeto de intercâmbio na Universidade de Deusto (Espanha).
+                    <br/><br/>
+                    Sou uma pessoa flexível e adaptativa, gosto de questionar, raciocinar e procurar caminhos lógicos para resolver problemas. Me divirto aprendendo novas tecnologias e, com isso, sempre estou atualizado no mundo de desenvolvimento de sistemas.
+                    <br/><br/>
+                    Na criação de sistemas, sites e aplicativos móveis, busco sempre manter um padrão que vise a facilidade de manutenção e adição de novas funcionalidades ao produto criado, utilizando técnicas que foram e que continuam sendo aprendidas ao longo de minha jornada na carreira.
+                </span>
             </div>
         </div>
     </div>

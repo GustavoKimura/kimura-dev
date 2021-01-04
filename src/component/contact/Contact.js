@@ -5,7 +5,7 @@ const Contact = () => (
         <strong className='contactTitle'>Contato</strong>
 
         <div className='contactContent'>
-            <span className='contactBiggerText'>Envie uma mensagem para um dos contatos abaixo</span>
+            <span className='contactBiggerText'>Quer falar comigo? Envie uma mensagem para um dos contatos abaixo</span>
 
             <div className='contactContentList'>
                 <span className='contactText'>WhatsApp: (48) 9 9868-1410</span>

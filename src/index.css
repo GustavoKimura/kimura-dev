@@ -1,5 +1,16 @@
+@font-face {
+    font-family: Achivo-Regular;
+    font-style: normal;
+    font-weight: 100;
+    src: url('./fonts/Archivo-Regular.ttf') format('truetype');
+}
+
 html, body, #root, .app {
     height: 100%;
     margin: 0;
     background-color: black;
+}
+
+* {
+    font-family: Achivo-Regular, serif;
 }

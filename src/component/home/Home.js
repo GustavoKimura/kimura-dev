@@ -1,12 +1,21 @@
+import ParallaxStars from "../parallax-stars/ParallaxStars";
+
 import './Home.css'
 
 const Home = () => (
     <div className='home'>
-        <div className='homeImage'>
-            <span className='homeText'>Gustavo Kimura</span>
-            <span className='homeText'>Desenvolvedor Web</span>
-            <span className='homeText'>Desenvolvedor de Aplicativos Móveis</span>
-        </div>
+        <ParallaxStars>
+            <div className='homeContent'>
+                <div className='homeTexts'>
+                    <span className='homeBiggerText'>GUSTAVO KIMURA</span>
+                    <br/>
+                    <br/>
+                    <span className='homeText'>FREELANCER</span>
+                    <br/>
+                    <span className='homeText'>DESENVOLVEDOR WEB E MOBILE</span>
+                </div>
+            </div>
+        </ParallaxStars>
     </div>
 )
 

@@ -4,21 +4,68 @@
     align-items: center;
 }
 
+.aboutTitleSquare {
+    width: 130px;
+    height: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #dc2424;
+}
+
 .aboutTitle {
-    font-size: 28pt;
+    font-size: 22pt;
     color: white;
+    font-weight: bold;
 }
 
 .aboutContent {
     display: flex;
     padding: 40px;
+    justify-content: center;
+    align-items: center;
+}
+
+.aboutSubContent {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.aboutHeartbeatsText {
+    color: #dc2424;
+    font-size: 24pt;
+    margin-bottom: 20px;
+}
+
+.aboutHeartbeats {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.aboutHeartbeatsCarousel {
+    width: 100px;
+    height: 100px;
+}
+
+.aboutHeartbeat {
+    width: 100px;
+    margin-bottom: 4px;
+}
+
+.aboutHeartbeatName {
+    color: white;
+    font-size: 12pt;
 }
 
 .aboutImage {
-    width: 300px;
-    height: 300px;
+    width: 250px;
+    height: 250px;
+    border-radius: 20%;
+    margin-bottom: 20px;
 
-    background-image: url("https://img.ibxk.com.br/2019/02/17/17124052466014.jpg?w=704");
+    background-image: url("https://scontent.fcfc5-1.fna.fbcdn.net/v/t1.0-9/118144860_912658752589408_4993765759185342558_n.jpg?_nc_cat=106&ccb=2&_nc_sid=09cbfe&_nc_ohc=zcBzqjJHTVYAX8PBow7&_nc_ht=scontent.fcfc5-1.fna&oh=58571a8b89aa77eaf6dfeb3f6e7fcad1&oe=60081415");
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -27,17 +74,20 @@
 .aboutTextsContent {
     display: flex;
     flex-direction: column;
-    width: 100%;
+    width: 70%;
 }
 
 .aboutMyNameText {
-    font-size: 24pt;
+    font-size: 18pt;
     color: white;
-    margin-left: 14px;
+    font-weight: bold;
+    margin-left: 40px;
+    margin-bottom: 20px;
 }
 
 .aboutText {
+    text-align: justify;
     font-size: 14pt;
     color: white;
-    margin-left: 14px;
+    margin-left: 40px;
 }
